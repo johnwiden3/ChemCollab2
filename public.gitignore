@@ -1,0 +1,5 @@
+# .gitignore
+node_modules/
+.DS_Store # For macOS users
+npm-debug.log
+*.env # If you add environment variables later

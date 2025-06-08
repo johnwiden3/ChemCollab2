@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Chemistry Editor</title>
+<link rel="stylesheet" href="style.css">
+  
+  
+</head>
+<body>
+  <h1>Collaborative Chemistry Editor</h1>
+
+  <div id="editor-wrapper">
+    <iframe id="ketcher-iframe" src="standalone\index.html" style="width: 100%; height: 600px; border: 1px solid #ccc;"></iframe> 
+  </div>
+  
+  <button id="send-structure-btn">Send Structure</button>
+  <div id="status-messages"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
+
+
